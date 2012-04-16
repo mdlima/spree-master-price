@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_master_price'
   s.version     = '1.0.rc1'
-  s.summary     = 'Simple extension to use the product\'s master price on all variants.'
+  s.summary     = 'Simple extension to use the product\'s master price on variants.'
   s.description = 'With this extension you can enable each product\'s variant to use the product\'s master price.'
   s.required_ruby_version = '>= 1.8.7'
 
