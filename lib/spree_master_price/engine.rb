@@ -16,5 +16,9 @@ module SpreeMasterPrice
     end
 
     config.to_prepare &method(:activate).to_proc
+    
+    initializer "spree.master_price.additional_field", :after => "spree.environment" do |app|
+      Spree::Variant.additional_fields += [ :name => 'Use Master Price', :only => [:variant], :use => 'check_box' ]
+    end
   end
 end
