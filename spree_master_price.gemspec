@@ -24,11 +24,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-rails',  '~> 2.9'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'guard-rspec'
-  # s.add_development_dependency 'autotest', '4.4.6'
-  # s.add_development_dependency 'autotest-rails-pure', '4.1.2'
-  # s.add_development_dependency 'autotest-fsevent', '0.2.4'
-  # s.add_development_dependency 'autotest-growl', '0.2.16'
-  
   s.add_development_dependency 'guard-spork', '0.3.2'
   s.add_development_dependency 'spork', '0.9.0'
   
